@@ -10,4 +10,5 @@ def has_even_digits(n):
 
     return count % 2 == 0
   
-print(has_even_digits(0))
+   n = int(input("ENTER A NUMBER: "))
+   print(has_even_digits(n))

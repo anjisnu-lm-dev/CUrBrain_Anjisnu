@@ -9,8 +9,11 @@ def has_even_digits(n):
         count += 1
 
     return count % 2 == 0
-print(has_even_digits(1234))
-print(has_even_digits(-567))
-print(has_even_digits(0))
-print(has_even_digits(-45))
+def main():
+    print(has_even_digits(1234))
+    print(has_even_digits(-567))
+    print(has_even_digits(0))
+    print(has_even_digits(-45))
+if __name__ == "__main__":
+    main()
 
